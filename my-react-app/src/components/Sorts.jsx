@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import "./sorts.css";
+import "./sorts.css"
 import { NavLink } from 'react-router-dom';
 
 function Sorts() {
