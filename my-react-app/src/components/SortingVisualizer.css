@@ -1,0 +1,53 @@
+/* src/components/SortingVisualizer.css */
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bars-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 400px;
+  width:100%;
+  border: 1px solid #eabfbf;
+  margin-top: 20px;
+  padding:10px;
+  background-color: black;
+}
+  
+
+.bar {
+  background-color: teal;
+  width: 30px;
+  margin: 0 1px;
+  color:white;
+  transition: height 0.3s ease;
+}
+
+.bar.comparing{
+  background-color: orange;
+}
+.bar.sorted{
+  background-color: rgb(240, 135, 135);
+}
+
+.bar.swapped{
+  background-color: blue;
+  transform:translateX(-5px);
+  /* transition: background-color 0.3s ease; */
+}
+.bar.picked{
+  background-color: red;
+}
+.speed{
+  font-weight: bold;
+}

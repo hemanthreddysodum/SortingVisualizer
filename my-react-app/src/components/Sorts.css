@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-right:200px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.red{
+    color:rgb(238, 113, 113);
+    font-weight: bolder;
+}
+
+.sorts{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  teal;
+    height:100px;
+}
+
+.heading{
+   color: #fffdd0;
+
+}
